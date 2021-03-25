@@ -1,0 +1,79 @@
+*{
+    background-color: #14181C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    
+
+    
+    
+    border: solid #1aff66 8px;
+    height: 400px;
+    width: 500px;
+}
+
+.content{
+    color: #1aff66;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.formulario{
+    
+    margin-top: 70px;
+}
+
+.input{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+    
+    width: 100%;
+    height: 25px;
+
+    border-radius: 14px;
+}
+
+.input:hover{
+    marker: none;
+}
+
+.bottom{
+    color: #1aff66;
+}
+.register-link{
+
+    color: #1aff66;
+    transition-duration: 0.2s;
+
+}
+
+.register-link:hover{
+    color: whitesmoke;
+}
+
+.btn-login{
+    border-color: black;
+    background-color: black;
+    color: #1aff66;
+    width: 80px;
+    height: 25px;
+
+    border-radius: 14px;
+
+
+    transition-duration: 0.2s;
+}
+
+.btn-login:hover{
+    background-color: #1aff66;
+    color:black ;
+}
